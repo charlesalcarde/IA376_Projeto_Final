@@ -146,7 +146,7 @@ $$\%H = \frac{|\mathcal{H}|}{N_{total}} \times 100\%$$
 
 To quantify the statistical significance of the results, we implemented a baseline of 1,000 random neuron draws: in each draw, we randomly selected $|\mathcal{H}|$ neurons (same count as the identified H-Neurons) and trained the classifier with that random subset. The mean AUROC and standard deviation of this baseline provides the empirical null distribution. The empirical p-value is calculated as:
 
-$$p = \frac{\#\{AUROC_{rand} > AUROC_{\mathcal{H}}\}}{1000}$$
+$$p = \frac{\text{card}\{AUROC_{rand} > AUROC_{\mathcal{H}}\}}{1000}$$
 
 Results with $p < 0.05$ are considered statistically significant.
 
