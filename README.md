@@ -1,6 +1,6 @@
 # H-Neurons in Small-Scale Language Models: Investigating the Existence of Hallucination-Associated Neurons in the Pythia Family
 
-**Charles Cavalcante Alcarde · Luís Felipe · Pedro Augusto**  
+**Charles Cavalcante Alcarde · Luis Felipe da Silva Carlos Pereira · Pedro Henrique Guerra**  
 Department of Computer Engineering and Automation (DCA)  
 School of Electrical and Computer Engineering (FEEC)  
 University of Campinas (UNICAMP) · Campinas, SP, Brazil · June 2026
