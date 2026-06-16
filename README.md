@@ -154,7 +154,7 @@ Raw activations are transformed into CETT scores:
 
 $$CETT_{i,\ell,j} = \frac{|\bar{z}_{i,\ell,j}|}{\|\bar{z}_{i,\ell}\|_2}$$
 
-where $\bar{z}_{i,\ell,j}$ is the average activation of neuron $j$ in layer $\ell$ for example $i$, and $\|\bar{z}_{i,\ell}\|_2$ is the L2 norm of layer $\ell$. The final feature vector $X_i \in \mathbb{R}^N$ concatenates CETT scores of all layers and neurons.
+where z̄ᵢ,ₗ,ⱼ is the average activation of neuron j in layer ℓ for example i, and ‖z̄ᵢ,ₗ‖₂ is the L2 norm of layer ℓ. The final feature vector Xᵢ ∈ ℝᴺ concatenates CETT scores of all layers and neurons.
 
 ### 3.5 H-Neuron Identification via Sparse L1 Classifier
 
